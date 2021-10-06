@@ -1,0 +1,81 @@
+html, html * {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+ul {
+    /* Remove list bullets */
+    list-style-type: none;
+    
+    /* The CSS margin properties are used to create space around elements, outside of any defined borders */
+    margin: 1;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 4;
+    
+    /* The overflow property specifies what should happen if content overflows an element's box. */
+    overflow: hidden;
+    
+    /*  */
+    background-color: rgb(21, 100, 131);
+    
+}
+/* The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in menu lists (<menu>). */
+li {
+    /* The float property is used for positioning and formatting content e.g. let an image float left to the text in a container. */
+    float: left;
+    margin: left 100px;
+}
+/* The <a> tag defines a hyperlink, which is used to link from one page to another. */
+li a {
+    /* The display property specifies the display behavior (the type of rendering box) of an element. */
+    display: block;
+    
+    /*  */
+    color: white;
+    
+    /* The text-align property specifies the horizontal alignment of text in an element. */
+    text-align: center;
+    
+    /* The CSS padding properties are used to generate space around an element's content, inside of any defined borders. */
+    padding: 12px 14px;
+    
+    /* The text-decoration property specifies the decoration added to text */
+    text-decoration: none;
+    
+}
+/* The :hover selector is used to select elements when you mouse over them. */
+li a:hover {
+    /*  */
+    background-color: rgb(46, 68, 141);
+}
+
+li a .active {
+    /*  */
+    background-color: #111e2ebe;
+}
+
+h1{
+    color-adjust: rgb(31, 31, 85);
+}
+h3{
+    color:rgba(43, 3, 3, 0.342)
+}
+
+iframe { 
+    width: 1500px; /* It should not be 100% */ 
+    height: 400px;
+    margin-left: auto;   /* Automatic margin from left */ 
+    margin-right: auto; /* Automatic margin from right */ 
+    align-content: center;
+   }  
+   h1,caption{
+    font-family: "Indie Flower";
+  }
+  
+  table, th, td {
+    border:1px solid black;
+  }
+  h2{
+      text-align: center;
+      color: rgba(214, 11, 11, 0.925);
+  }
+  
